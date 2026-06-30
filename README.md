@@ -49,7 +49,7 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
-## Processos:
+## O que aprendemos:
 
 1. Cração de projeto React Native
 
@@ -72,3 +72,14 @@ Join our community of developers creating universal apps.
 - A criar elementos interativos com Pressable para personalização de estilo.
 - A estruturar layouts usando Flexbox e propriedades como gap.
 - A adequar aparências seguindo protótipos e guidelines de design no Figma.
+
+3. App no simulador, estado e listas
+
+- A instalação e configuração do Android Studio e do Xcode para criar emuladores de dispositivos móveis.
+- O uso do Expo para rodar aplicativos em emuladores de Android e iOS a partir do mesmo projeto.
+- A criação de um menu de contexto com Pressable para troca de estados visuais no aplicativo.
+- A aplicação de estilos com StyleSheet, utilizando flex-direction, justify-content e align-items.
+- A adição de estado local com useState para gerenciar tipos de temporizador no React.
+- A iteração de arrays no JSX com .map para exibir elementos dinamicamente.
+- A atribuição de key a itens de listas geradas por .map em React.
+- A implementação de interatividade usando onPress em componentes Pressable para atualizar o estado local.
