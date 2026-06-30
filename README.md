@@ -48,3 +48,27 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Processos:
+
+1. Cração de projeto React Native
+
+- Como iniciar um projeto em React Native usando o Expo para simplificar o desenvolvimento.
+- O uso do comando npx create-expo-app para criar projetos Expo.
+- Como iniciar o servidor de desenvolvimento com npm start e testar em diferentes plataformas.
+- A conectar o projeto Expo ao celular via QR Code para testes diretos em dispositivos.
+- A limpar o projeto base do Expo para começar o desenvolvimento do zero.
+- Que o React é usado para construir interfaces de forma agnóstica de plataforma.
+- Que o React Native permite desenvolvimento para iOS e Android com uma base de código.
+- A escrever código JSX simples e fácil de entender em React Native.
+
+2. Aplicando estilos no projeto com StyleSheet
+
+- A usar o Figma para extrair cores e assets para desenvolvimento.
+- A implementar e organizar estilos em React Native com StyleSheet.
+- A utilizar o componente Image e o método require para exibir imagens.
+- A aplicar responsividade e estilos (como padding, borderRadius) em componentes.
+- A importância de encapsular texto no componente Text.
+- A criar elementos interativos com Pressable para personalização de estilo.
+- A estruturar layouts usando Flexbox e propriedades como gap.
+- A adequar aparências seguindo protótipos e guidelines de design no Figma.
