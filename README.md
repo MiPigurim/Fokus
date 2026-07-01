@@ -83,3 +83,14 @@ Join our community of developers creating universal apps.
 - A iteração de arrays no JSX com .map para exibir elementos dinamicamente.
 - A atribuição de key a itens de listas geradas por .map em React.
 - A implementação de interatividade usando onPress em componentes Pressable para atualizar o estado local.
+
+4. Componentização e props
+
+- A importância de componentizar e refatorar o código em React Native para melhorar a organização e manutenção.
+- Como estruturar pastas e arquivos de componentes, exportando e importando utilizando export e import.
+- A criar componentes com arrow functions e passar dados via props.
+- A mover e organizar lógica de estilo usando StyleSheet.
+- A importância de usar elementos específicos do React Native para funcionalidade adequada.
+- A compreender o ciclo de transformação de JSX em componentes nativos.
+- A diferença entre componentes React Native e suas contrapartes nativas iOS/Android.
+- O funcionamento da lógica do aplicativo em uma thread JavaScript separada.
