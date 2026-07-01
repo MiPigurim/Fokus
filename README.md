@@ -1,3 +1,90 @@
+<h1 align="center"> Fokud </h1>
+
+<p align="center">
+  <img alt="Imagem de visualização do layout Fokus" src="./app/layout.png">
+</p>
+
+<p align="center">
+Este é o Fokus, um app desenvolvido seguindo curso "React Native: desenvolvendo com Expo" da Alura
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido utilizando:
+
+- React Native
+- Expo
+- react-native-svg
+- Java Script
+
+## 💻 Projeto
+
+Fokus é um aplicativo de cronômetro baseado na técnica Pomodoro, desenvolvido para auxiliar na organização do tempo e aumentar a produtividade durante os estudos ou trabalho.
+
+O aplicativo oferece três modos de contagem pré-configurados:
+
+Foco: 25 minutos
+Pausa curta: 5 minutos
+Pausa longa: 15 minutos
+
+Além disso, conta com um botão interativo para iniciar, pausar e retomar a contagem do cronômetro, proporcionando uma experiência simples, intuitiva e de fácil utilização por meio de uma interface amigável.
+
+## O que aprendemos:
+
+1. Cração de projeto React Native
+
+- Como iniciar um projeto em React Native usando o Expo para simplificar o desenvolvimento.
+- O uso do comando npx create-expo-app para criar projetos Expo.
+- Como iniciar o servidor de desenvolvimento com npm start e testar em diferentes plataformas.
+- A conectar o projeto Expo ao celular via QR Code para testes diretos em dispositivos.
+- A limpar o projeto base do Expo para começar o desenvolvimento do zero.
+- Que o React é usado para construir interfaces de forma agnóstica de plataforma.
+- Que o React Native permite desenvolvimento para iOS e Android com uma base de código.
+- A escrever código JSX simples e fácil de entender em React Native.
+
+2. Aplicando estilos no projeto com StyleSheet
+
+- A usar o Figma para extrair cores e assets para desenvolvimento.
+- A implementar e organizar estilos em React Native com StyleSheet.
+- A utilizar o componente Image e o método require para exibir imagens.
+- A aplicar responsividade e estilos (como padding, borderRadius) em componentes.
+- A importância de encapsular texto no componente Text.
+- A criar elementos interativos com Pressable para personalização de estilo.
+- A estruturar layouts usando Flexbox e propriedades como gap.
+- A adequar aparências seguindo protótipos e guidelines de design no Figma.
+
+3. App no simulador, estado e listas
+
+- A instalação e configuração do Android Studio e do Xcode para criar emuladores de dispositivos móveis.
+- O uso do Expo para rodar aplicativos em emuladores de Android e iOS a partir do mesmo projeto.
+- A criação de um menu de contexto com Pressable para troca de estados visuais no aplicativo.
+- A aplicação de estilos com StyleSheet, utilizando flex-direction, justify-content e align-items.
+- A adição de estado local com useState para gerenciar tipos de temporizador no React.
+- A iteração de arrays no JSX com .map para exibir elementos dinamicamente.
+- A atribuição de key a itens de listas geradas por .map em React.
+- A implementação de interatividade usando onPress em componentes Pressable para atualizar o estado local.
+
+4. Componentização e props
+
+- A importância de componentizar e refatorar o código em React Native para melhorar a organização e manutenção.
+- Como estruturar pastas e arquivos de componentes, exportando e importando utilizando export e import.
+- A criar componentes com arrow functions e passar dados via props.
+- A mover e organizar lógica de estilo usando StyleSheet.
+- A importância de usar elementos específicos do React Native para funcionalidade adequada.
+- A compreender o ciclo de transformação de JSX em componentes nativos.
+- A diferença entre componentes React Native e suas contrapartes nativas iOS/Android.
+- O funcionamento da lógica do aplicativo em uma thread JavaScript separada.
+
+5. Arquivos SVG
+
+- A implementar funções de toggle para iniciar e pausar um timer usando useRef do React.
+- A utilizar setInterval e clearInterval para gerenciar a execução periódica de código.
+- A manipular e atualizar dinamicamente o texto de botões com base no estado do aplicativo.
+- As diferenças de comportamento entre useState e useRef no React.
+- A importância de usar uma biblioteca como React Native SVG para manipular SVGs no React Native.
+- A instalar bibliotecas no Expo usando npx expo install.
+- A ajustar dinamicamente ícones com base no estado do timer, melhorando a interatividade.
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,49 +135,3 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-## O que aprendemos:
-
-1. Cração de projeto React Native
-
-- Como iniciar um projeto em React Native usando o Expo para simplificar o desenvolvimento.
-- O uso do comando npx create-expo-app para criar projetos Expo.
-- Como iniciar o servidor de desenvolvimento com npm start e testar em diferentes plataformas.
-- A conectar o projeto Expo ao celular via QR Code para testes diretos em dispositivos.
-- A limpar o projeto base do Expo para começar o desenvolvimento do zero.
-- Que o React é usado para construir interfaces de forma agnóstica de plataforma.
-- Que o React Native permite desenvolvimento para iOS e Android com uma base de código.
-- A escrever código JSX simples e fácil de entender em React Native.
-
-2. Aplicando estilos no projeto com StyleSheet
-
-- A usar o Figma para extrair cores e assets para desenvolvimento.
-- A implementar e organizar estilos em React Native com StyleSheet.
-- A utilizar o componente Image e o método require para exibir imagens.
-- A aplicar responsividade e estilos (como padding, borderRadius) em componentes.
-- A importância de encapsular texto no componente Text.
-- A criar elementos interativos com Pressable para personalização de estilo.
-- A estruturar layouts usando Flexbox e propriedades como gap.
-- A adequar aparências seguindo protótipos e guidelines de design no Figma.
-
-3. App no simulador, estado e listas
-
-- A instalação e configuração do Android Studio e do Xcode para criar emuladores de dispositivos móveis.
-- O uso do Expo para rodar aplicativos em emuladores de Android e iOS a partir do mesmo projeto.
-- A criação de um menu de contexto com Pressable para troca de estados visuais no aplicativo.
-- A aplicação de estilos com StyleSheet, utilizando flex-direction, justify-content e align-items.
-- A adição de estado local com useState para gerenciar tipos de temporizador no React.
-- A iteração de arrays no JSX com .map para exibir elementos dinamicamente.
-- A atribuição de key a itens de listas geradas por .map em React.
-- A implementação de interatividade usando onPress em componentes Pressable para atualizar o estado local.
-
-4. Componentização e props
-
-- A importância de componentizar e refatorar o código em React Native para melhorar a organização e manutenção.
-- Como estruturar pastas e arquivos de componentes, exportando e importando utilizando export e import.
-- A criar componentes com arrow functions e passar dados via props.
-- A mover e organizar lógica de estilo usando StyleSheet.
-- A importância de usar elementos específicos do React Native para funcionalidade adequada.
-- A compreender o ciclo de transformação de JSX em componentes nativos.
-- A diferença entre componentes React Native e suas contrapartes nativas iOS/Android.
-- O funcionamento da lógica do aplicativo em uma thread JavaScript separada.
