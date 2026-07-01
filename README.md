@@ -1,4 +1,4 @@
-<h1 align="center"> Fokud </h1>
+<h1 align="center"> Fokus </h1>
 
 <p align="center">
   <img alt="Imagem de visualização do layout Fokus" src="./app/layout.png">
